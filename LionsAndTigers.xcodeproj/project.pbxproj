@@ -22,6 +22,8 @@
 		EA28C4FD1A07D75D00E09485 /* Lioness.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EA28C4F51A07D75D00E09485 /* Lioness.jpeg */; };
 		EA28C4FE1A07D75D00E09485 /* MalayanTiger.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA28C4F61A07D75D00E09485 /* MalayanTiger.jpg */; };
 		EA28C4FF1A07D75E00E09485 /* SiberianTiger.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA28C4F71A07D75D00E09485 /* SiberianTiger.jpg */; };
+		EA549FD71A3B59B700F3084D /* LionCub.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA549FD61A3B59B700F3084D /* LionCub.swift */; };
+		EA87614D1A3A157D0029F91E /* Lions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA87614C1A3A157C0029F91E /* Lions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,8 @@
 		EA28C4F51A07D75D00E09485 /* Lioness.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Lioness.jpeg; sourceTree = "<group>"; };
 		EA28C4F61A07D75D00E09485 /* MalayanTiger.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MalayanTiger.jpg; sourceTree = "<group>"; };
 		EA28C4F71A07D75D00E09485 /* SiberianTiger.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SiberianTiger.jpg; sourceTree = "<group>"; };
+		EA549FD61A3B59B700F3084D /* LionCub.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LionCub.swift; sourceTree = "<group>"; };
+		EA87614C1A3A157C0029F91E /* Lions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 			children = (
 				EA28C4CD1A07CE3800E09485 /* AppDelegate.swift */,
 				EA28C4CF1A07CE3800E09485 /* ViewController.swift */,
+				EA549FD61A3B59B700F3084D /* LionCub.swift */,
+				EA87614C1A3A157C0029F91E /* Lions.swift */,
 				EA28C4ED1A07D67600E09485 /* Tiger.swift */,
 				EA28C4D11A07CE3800E09485 /* Main.storyboard */,
 				EA28C4D41A07CE3800E09485 /* Images.xcassets */,
@@ -258,6 +264,8 @@
 				EA28C4D01A07CE3800E09485 /* ViewController.swift in Sources */,
 				EA28C4EE1A07D67600E09485 /* Tiger.swift in Sources */,
 				EA28C4CE1A07CE3800E09485 /* AppDelegate.swift in Sources */,
+				EA549FD71A3B59B700F3084D /* LionCub.swift in Sources */,
+				EA87614D1A3A157D0029F91E /* Lions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -451,6 +459,7 @@
 				EA28C4E91A07CE3800E09485 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EA28C4EA1A07CE3800E09485 /* Build configuration list for PBXNativeTarget "LionsAndTigersTests" */ = {
 			isa = XCConfigurationList;
@@ -459,6 +468,7 @@
 				EA28C4EC1A07CE3800E09485 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
